@@ -32,19 +32,19 @@ __ __
 
 char* pyramid[] = { "   *   ",
                     "  ***  ",
-					" ***** ",
-					"*******",
-					" HH HH ",
-					" ZZZZZ ",
-					NULL
+		    " ***** ",
+		    "*******",
+		    " HH HH ",
+		    " ZZZZZ ",
+		    NULL
 };
 
 char* cells[] = {" _   _ ",
 		         "/ \\_/ \\",
-				 "\\_/ \\_/",
-				 "/ \\_/ \\",
-				 "\\_/ \\_/",
-				 NULL
+			 "\\_/ \\_/",
+			 "/ \\_/ \\",
+			 "\\_/ \\_/",
+			 NULL
 };
 
 int main(void) {
@@ -57,7 +57,7 @@ int main(void) {
 
 
 	for(int i=0;cells[i];i++)
-			printf("%s\n",cells[i]);
+		printf("%s\n",cells[i]);
 
 	return 0;
 }
